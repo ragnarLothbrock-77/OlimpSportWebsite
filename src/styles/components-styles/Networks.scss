@@ -1,0 +1,31 @@
+.networks {
+  &__body {}
+}
+
+.networks-list {
+  display: flex;
+  align-items: center;
+}
+
+.networks-list-item {
+  margin-left: 50px;
+  &:first-child {
+    margin-left: 0;
+  }
+  &__link {
+
+  }
+  &__icon {
+    &_ico {
+      fill: #3b3b3b;
+      transition: all .4s ease-in-out;
+      &:hover {
+        fill: #fff;
+      }
+      @media (max-width: $md2+'px') {
+        fill: #fff;
+       }
+    }
+  }
+}
+

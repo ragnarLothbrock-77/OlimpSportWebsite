@@ -1,0 +1,102 @@
+.about-banner {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  @media (max-width: 1080px) {
+    height: 500px;
+  }
+  @media (max-width: 860px) {
+    height: 400px;
+  }
+  @media (max-width: 615px) {
+    height: 300px;
+  }
+  @media (max-width: 430px) {
+    height: 250px;
+  }
+  &__image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('../../../../assets/images/DSC_1051.JPG');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -2;
+  }
+  &__mask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(20deg, rgba(0,0,0,1) 35%, rgba(32,57,31,1) 69%, rgba(102,137,74,1) 100%);;
+    color: #FFF;
+    mix-blend-mode: multiply;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &_text {
+      display: inline;
+      font-size: 350px;
+      text-transform: uppercase;
+      letter-spacing: 50px;
+      font-weight: bold;
+      padding-left: 40px;
+      @media (max-width: 1590px) {
+        font-size: 300px;
+      }
+      @media (max-width: 1400px) {
+        font-size: 250px;
+        letter-spacing: 25px;
+        padding-left: 30px;
+      }
+      @media (max-width: 1080px) {
+        font-size: 200px;
+        letter-spacing: 20px;
+        padding-left: 20px;
+      }
+      @media (max-width: 860px) {
+        font-size: 150px;
+        letter-spacing: 10px;
+        padding-left: 10px;
+      }
+      @media (max-width: 615px) {
+        font-size: 100px;
+        padding-left: 10px;
+      }
+      @media (max-width: 430px) {
+        font-size: 90px;
+      }
+      @media (max-width: 390px) {
+        font-size: 80px;
+      }
+      @media (max-width: 356px) {
+        font-size: 70px;
+      }
+    }
+  }
+  &__logo {
+    width: 100%;
+    height: 100%;
+    position: relative;
+   
+    &_text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 300px;
+      text-transform: uppercase;
+      letter-spacing: 50px;
+      font-weight: bold;
+      z-index: 10;
+      color: #FFF;
+      mix-blend-mode: multiply;
+    }
+  }
+}

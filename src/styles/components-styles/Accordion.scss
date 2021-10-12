@@ -1,0 +1,118 @@
+.accordion {
+    @media (max-width: $md3 + 'px') {
+        padding-bottom: 50px;
+    }
+    &__body {
+        width: 70%;
+        margin: 0 auto;
+        @media (max-width: $md3 + 'px') {
+            width: 100%;
+        }
+    }
+}
+
+.accordion-list {
+    
+}
+
+.accordion-list-item {
+    border-top: 2px solid $gray;
+    &:last-child {
+        border-bottom: 2px solid $gray;
+    }
+    &__title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        margin-top: 5px;
+        cursor: pointer;
+        &:hover &_icon {
+            background: $mainBlue;
+        }
+        &_text {
+            text-transform: uppercase;
+            color: #fff;
+            font-weight: bold;
+            @media (max-width: $md3 + 'px') {
+                font-size: 20px;
+            }
+            @media (max-width: $md3 + 'px') {
+                font-size: 16px;
+            }
+        }
+        &_icon {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background: none;
+            transition: background .3s ease;
+        }
+    }
+}
+
+.accordion-list-item-icon {
+    transition: all .2s ease;
+}
+
+.opened {
+    transform: rotate(45deg);
+}
+
+.closed {}
+
+.accordion-dropdown {
+    &__body {
+        padding: 20px;
+    }
+}
+
+.accordion-dropdown-list {
+    &__documents {
+        &_link {
+            color: #fff;
+        }
+        &_text {
+            display: inline-block;
+            transition: all 0.1s ease-in;
+            padding: 10px 20px;
+            @media (max-width: $md3 + 'px') {
+                font-size: 14px;
+            }
+            @media (min-width: $mobileWith + 'px') {
+                &:hover {
+                    padding-left: 25px;
+                    color: $mainBlue;
+                }
+            }
+            
+        }
+    }
+    &__paragraph {
+        padding: 5px 20px;
+        @media (max-width: $md3 + 'px') {
+            padding: 5px 0;
+        }
+        &_text {
+            color: inherit;
+            line-height: 30px;
+        }
+    }
+}
+
+.accordion-dropdown-paragraph {
+    &__item {
+        line-height: 30px;
+        padding: 0 20px;
+        @media (max-width: $md3 + 'px') {
+            padding: 0;
+        }
+    }
+}
+
+.alarm {
+    color: #a5240b;
+}

@@ -1,0 +1,158 @@
+.places {
+  &__body {}
+  &__list {}
+}
+
+.places-item {
+  margin-top: 250px;
+  position: relative;
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: $lightGray;
+  }
+  &:last-child::after {
+    width: 0;
+  }
+  &:first-child {
+    margin-top: 0;
+  }
+  &__body {}
+  &__preview {
+    width: 500px;
+    margin-bottom: 70px;
+    @media (max-width: 650px) {
+      width: 100%;
+    }
+  }
+  &__title {
+    &_text {}
+  }
+  &__subtitle {
+    margin-top: 70px;
+    &_text {
+      line-height: 1;
+      text-transform: uppercase;
+      font-weight: bold;
+      @media (max-width: 650px) {
+        font-size: 14px;
+      }
+    }
+  }
+  &__content {
+    margin-top: 50px;
+  }
+  &__link {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    @media (max-width: 950px) {
+      margin-top: 30px;
+    }
+  }
+}
+
+.places-content-list {
+  display: flex;
+  margin: 0 -10px;
+  @media (max-width: $md1 + 'px') {
+    flex-wrap: wrap;
+  }
+  @media (max-width: $md3 + 'px') {
+    margin: 0;
+  }
+  &__item {
+    flex: 33.333%;
+    padding: 10px;
+    @media (max-width: $md1 + 'px') {
+      margin-bottom: 50px;
+    }
+    @media (max-width: $md3 + 'px') {
+      flex: 100%;
+      padding: 0;
+    }
+  }
+  &__decor {
+    position: relative;
+    border-radius: 2px;
+    overflow: hidden;
+    @media (max-width: $md3 + 'px') {
+      margin: 0 -20px;
+    }
+    &_image {
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    &_mask {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100%;
+      height: 100%;
+      transform: translate(-50%, -50%);
+      background: rgba(0, 0, 0, .2);
+    }
+  }
+  &__info {
+    margin-top: 30px;
+    &_place {
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    &_description {
+      margin-top: 10px;
+    }
+  }
+}
+
+
+// Blocks
+.places-item-small {
+  @media (max-width: $md1 + 'px') {
+    flex: 0 0 50%;
+  }
+  @media (max-width: $md3 + 'px') {
+    flex: 100%;
+  }
+}
+
+.places-item-medium {
+  @media (max-width: $md3 + 'px') {
+    flex: 100%;
+  }
+}
+
+
+// Images
+.places-decor-image-small {
+  height: 270px;
+  @media (max-width: $md1 + 'px') {
+    height: 350px;
+  }
+  @media (max-width: 520px) {
+    height: 300px;
+  }
+}
+
+.places-decor-image-medium {
+  height: 350px;
+  @media (max-width: 520px) {
+    height: 300px;
+  }
+}
+
+.places-decor-image-large {
+  height: 500px;
+  @media (max-width: 890px) {
+    height: 400px;
+  }
+  @media (max-width: 520px) {
+    height: 300px;
+  }
+}
+

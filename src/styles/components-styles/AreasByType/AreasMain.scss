@@ -1,0 +1,167 @@
+.areas-main {
+  &__body {}
+  &__content {
+    @media (max-width: $mobileWith + 'px') {
+      padding-bottom: 100px;
+    }
+    @media (max-width: $md3 + 'px') {
+      padding-bottom: 50px;
+    }
+    &_activities {}
+    &_info {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      @media (max-width: $mobileWith + 'px') {
+        flex-wrap: wrap;
+      }
+    }
+  }
+}
+
+.areas-main-block {
+  flex: 33.333%;
+  @media (max-width: $mobileWith + 'px') {
+    flex: 100%;
+    padding-bottom: 50px;
+  }
+  @media (max-width: 550px) {
+    padding-bottom: 80px;
+  }
+  &__content {
+    @media (max-width: $mobileWith + 'px') {
+      display: flex;
+      width: 600px;
+      align-items: center;
+      margin: 0 auto;
+    }
+    @media (max-width: 650px) {
+      width: 100%;
+    }
+    @media (max-width: 550px) {
+      flex-direction: column;
+    }
+  }
+  &__icon {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    @media (max-width: $mobileWith + 'px') {
+      display: block;
+      padding-bottom: 0;
+      flex: 1;
+    }
+    @media (max-width: 550px) {
+      padding-bottom: 20px;
+    }
+  }
+  &__decor {
+    width: fit-content;
+    transform: rotate(90deg);
+    margin: 0 auto;
+    @media (max-width: $mobileWith + 'px') {
+      width: auto;
+      transform: none;
+      margin: 0;
+      flex: 0.5;
+    }
+    @media (max-width: 550px) {
+      transform: rotate(90deg);
+    }
+  }
+  &__info {
+    padding-top: 50px;
+    text-align: center;
+    color: #000;
+    @media (max-width: $mobileWith + 'px') {
+      padding-top: 0;
+      flex: 1.5;
+      text-align: right;
+    }
+    @media (max-width: 550px) {
+      padding-top: 30px;
+    }
+    &_value {
+      position: relative;
+      display: inline-block;
+      @media (max-width: $md3 + 'px') {
+        font-size: 20px;
+      }
+    }
+    &_extra-simbol {
+      position: absolute;
+      top: -10px;
+      right: -10px;
+      font-weight: bold;
+    }
+  }
+  &__list {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    padding-bottom: 50px;
+    &_item {
+      height: 140px;
+      margin: 5px;
+    }
+  }
+}
+
+.main-bigger-text {
+  font-size: 30px;
+  @media (max-width: $md3 + 'px') {
+    font-size: 23px;
+  }
+}
+
+
+// Areas - Activities
+.areas-activities {
+  &__body {}
+  &__title {
+    width: 350px;
+    margin: 0 auto;
+    @media (max-width: $md4 + 'px') {
+      width: 100%;
+    }
+  }
+  &__list {
+    width: 440px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 100px 0 150px 0;
+    @media (max-width: $md2 + 'px') {
+      width: 100%;
+      height: 100%;
+    }
+    @media (max-width: 725px) {
+      width: 350px;
+      padding: 100px 0;
+    }
+    @media (max-width: 390px) {
+      width: 260px;
+    }
+    &_item {
+      margin: 10px;
+      @media (max-width: $md2 + 'px') {
+        margin: 5px;
+      }
+    }
+    &_item-icon {
+      width: 200px;
+      height: 200px;
+      @media (max-width: $md2 + 'px') {
+        height: 150px;
+        width: 150px;
+      }
+      @media (max-width: 390px) {
+        height: 120px;
+        width: 120px;
+      }
+    }
+  }
+}

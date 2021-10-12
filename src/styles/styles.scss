@@ -1,0 +1,89 @@
+//<МИКСИНЫ>=======================================================================================
+
+//<ШРИФТЫ>========================================================================================
+
+//<Подключаем шрифты>=============================================================================
+//&display=swap&subset=cyrillic-ext
+@import "fonts";
+
+//<Иконочные шрифты>==============================================================================
+//@import "icons";
+//</Иконочные шрифты>=============================================================================
+
+//<Шрифт по умолчанию>============================================================================
+$fontFamily: 'Sector';
+
+//<ПЕРЕМЕННЫЕ>====================================================================================
+$minWidth: 320;
+$maxWidth: 1920;
+$maxWidthContainer: 1140;
+$mobileWith: 1024;
+$md1: $maxWidthContainer + 12;
+$md2: 899.98;
+$md3: 767.98;
+$md4: 479.98;
+
+
+@import './variables.scss';
+
+//<ОБНУЛЕНИЕ, ОБЩИЕ ПАРАМЕТРЫ>====================================================================
+@import "null";
+body {
+  color: #3b3b3b;
+  font-family: $fontFamily;
+  font-size: 25px;
+}
+
+//<ОБОЛОЧКА>======================================================================================
+._wrapper {
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+//<ОСНОВНАЯ СЕТКА>================================================================================
+._container {
+  max-width: $maxWidthContainer + px;
+  margin: 0 auto;
+  padding: 0 15px;
+  @media (max-width: $md1+px) {
+    max-width: 1020px;
+  }
+  @media (max-width: $mobileWith+px) {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  @media (max-width: $md3+px) {
+    max-width: none;
+    padding: 0 20px;
+  }
+}
+
+//<ПОДКЛЮЧЕНИЕ ФАЙЛОВ ГОТОВЫХ КЛАССОВ>============================================================
+@import "ui";
+
+//</ПОДКЛЮЧЕНИЕ ФАЙЛОВ СТИЛЕЙ КОМПОНЕНТОВ>========================================================
+@import './components-styles/Navigation.scss';
+@import './components-styles/Slider.scss';
+@import './components-styles/Button.scss';
+@import './components-styles/Header/Header.scss';
+@import './components-styles/Footer.scss';
+@import './components-styles/Networks.scss';
+@import './components-styles/SectionTitle.scss';
+@import './components-styles/Accordion.scss';
+@import './components-styles/PreviewPagesBlock.scss';
+@import './components-styles/PreviewPages/PreviewMain.scss';
+@import './components-styles/Section/Section.scss';
+@import './components-styles/TitleWithCorners.scss';
+@import './components-styles/AreasByType/AreasByType.scss';
+
+
+//<ПОДКЛЮЧЕНИЕ ФАЙЛОВ СТИЛЕЙ СТРАНИЦ>=============================================================
+@import './pages-styles/Main/Main.scss';
+@import './pages-styles/About/About.scss';
+@import './pages-styles/Sections/Sections.scss';
+@import './pages-styles/Places/Places.scss';
+@import './pages-styles/Contacts/Contacts.scss';
+@import './pages-styles/Events/Events.scss';

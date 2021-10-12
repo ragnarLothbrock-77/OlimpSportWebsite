@@ -1,0 +1,85 @@
+.section-card {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  &__decor {
+    flex-grow: 0;
+    &_image {
+      object-fit: cover;
+      object-position: center;
+      width: 100%;
+      height: 240px;
+      @media (max-width: $mobileWith + 'px') {
+        height: 300px;
+      }
+      @media (max-width: $md3 + 'px') {
+        height: 350px;
+      }
+      @media (max-width: $md4 + 'px') {
+        height: 300px;
+      }
+      @media (max-width: 390px) {
+        height: 250px;
+      }
+    }
+  }
+  &__information {
+    flex-grow: 1;
+    background-color: #0c0c0c;
+  }
+  &__link {
+    flex-grow: 0;
+    color: #fff;
+    background-color: $mainBlue;
+    padding: 20px 0;
+    height: 70px;
+    transition: all .2s ease;
+    &:hover {
+      background-color: #fff;
+      color: #1c1c1c;
+
+    }
+    &_text {
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 16px;
+    }
+  }
+}
+
+.section-card-info {
+  padding: 25px 35px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  @media (max-width: $md4 + 'px') {
+    padding: 20px 25px;
+  }
+  @media (max-width: 390px) {
+    padding: 20px 20px;
+  }
+  &__title {
+    &_text {     
+      text-transform: uppercase;
+    }
+  }
+  &__text {
+    flex-grow: 1;
+    padding-top: 20px;
+    &_value {}
+  }
+  &__age {
+    justify-self: flex-end;
+    &_title {
+      //text-transform: uppercase;
+      font-weight: bold;
+    }
+    &_value {
+      padding-left: 20px;
+    }
+  }
+}

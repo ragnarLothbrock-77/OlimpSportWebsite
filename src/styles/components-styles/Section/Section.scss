@@ -1,0 +1,17 @@
+@import '../Section/Section-Preview.scss';
+@import '../Section/Section-Information.scss';
+@import '../Section/Section-Advantages.scss';
+@import '../Section/Section-Group.scss';
+@import '../Section/Section-Coaches.scss';
+
+
+.section {
+  &__body {}
+}
+
+.section-item {
+  &__preview {}
+  &__main-information {
+    &_body {}
+  }
+}

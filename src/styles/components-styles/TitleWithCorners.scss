@@ -1,0 +1,30 @@
+.title-with-corners {
+  position: relative;
+  width: 100%;
+  &__icon {
+    position: absolute;
+  }
+  &__text {
+    text-transform: uppercase;
+    line-height: 1;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding: 0 25px;
+    @media (max-width: $md2 + 'px') {
+      font-size: 25px;
+      
+    }
+  }
+}
+
+.corner-icon-left {
+  left: 0px;
+  top: -20px;
+}
+
+.corner-icon-right {
+  right: 0px;
+  bottom: -20px;
+  transform: rotate(180deg);
+}

@@ -1,0 +1,35 @@
+@import './About/AboutDescription.scss';
+@import './About/AboutBanner.scss';
+@import './About/AboutUnification.scss';
+@import './About/AboutPagesLinks.scss';
+@import './Team/Team.scss';
+@import './Documents/Documents.scss';
+@import './Questions/Questions.scss';
+
+
+
+.about {
+  &__body {
+    width: 100%;
+    @media (max-width: $mobileWith + 'px') {
+      padding-top: 60px;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

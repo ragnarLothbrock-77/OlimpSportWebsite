@@ -1,0 +1,129 @@
+.questions {
+  background: #000;
+  &__body {}
+}
+
+.questions-content {
+  margin-top: 100px;
+  &__list {
+  }
+}
+
+.questions-block {
+  &__title {
+    &_text {
+      color: #fff;
+      text-transform: uppercase;
+      @media (max-width: $md3 + 'px') {
+        font-size: 25px;
+      }
+    }
+  }
+  &__dialog {
+    width: 70%;
+    margin: 0 auto;
+    padding: 50px 0 70px 0;
+    @media (max-width: $md1 + 'px') {
+      width: 80%;
+    }
+    @media (max-width: $mobileWith + 'px') {
+      width: 90%;
+    }
+    @media (max-width: 900px) {
+      &:last-child {
+        padding-bottom: 0;
+      }
+    }
+    @media (max-width: 650px) {
+      width: 100%;
+    }
+  }
+}
+
+.questions-dialog {
+  margin-bottom: 70px;
+  width: 100%;
+  color: #000;
+  @media (max-width: 650px) {
+    margin-bottom: 90px;
+  }
+  &__body {
+    width: 100%;
+    padding: 25px 40px;
+    display: flex;
+    position: relative;
+    @media (max-width: 900px) {
+      flex-direction: column;
+    }
+    @media (max-width: 570px) {
+      padding: 20px 30px;
+    }
+    @media (max-width: 470px) {
+      padding: 15px 20px;
+    }
+  }
+  &__icon {
+    position: absolute;
+    bottom: -20px;
+  }
+  &__question {
+    background: $lightGray;
+    border-radius: 15px;
+    margin-right: 50px;
+    @media (max-width: 650px) {
+      margin-right: 20px;
+    }
+    @media (max-width: 570px) {
+      margin-right: 0;
+    }
+    &_title {
+      width: 15%;
+      font-weight: bold;
+      @media (max-width: 900px) {
+        width: auto;
+      }
+    }
+    &_value {
+      padding-left: 30px;
+      @media (max-width: 900px) {
+        padding-left: 0;
+        padding-top: 5px;
+      }
+    }
+  }
+  &__answer {
+    background: $yellow;
+    border-radius: 10px;
+    margin: 20px 0 0 70px;
+    display: flex;
+    @media (max-width: 650px) {
+      margin-left: 20px;
+      margin-top: 30px;
+    }
+    @media (max-width: 570px) {
+      margin-left: 0;
+    }
+    &_title {
+      width: 15%;
+      font-weight: bold;
+      @media (max-width: 900px) {
+        width: auto;
+      }
+    }
+    &_value {
+      padding-left: 30px;
+      @media (max-width: 900px) {
+        padding-left: 0;
+        padding-top: 5px;
+      }
+    }
+  }
+}
+
+.right {
+  right: 40px;
+}
+
+.left {
+  left: 40px;
+} 

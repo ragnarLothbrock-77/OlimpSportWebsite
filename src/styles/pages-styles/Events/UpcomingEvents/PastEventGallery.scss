@@ -1,0 +1,14 @@
+.past-event-gallery {
+  &__body {}
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 5px;
+    grid-auto-flow: dense;
+  }
+  &__decor {
+    height: 80px;
+    background-position: center;
+    background-size: cover;
+  }
+}

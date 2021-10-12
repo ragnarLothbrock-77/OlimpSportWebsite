@@ -1,0 +1,32 @@
+.section-title {
+  position: absolute;
+  top: -50px;
+  left: 10;
+  width: 300px;
+  height: 300px;
+  @media (max-width: $md3 + 'px') {
+    width: 100%;
+    height: 150px;
+    top: 0;
+    left: 0;
+  }
+  @media (max-width: $md4 + 'px') {
+    height: 100px;
+  }
+  &__body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $blue;
+    &_text { 
+      font-family: 'Sector';
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 30px;
+      text-transform: uppercase;
+      color: #fff;
+      text-shadow: 1px 1px 1px #000;
+    }
+  }
+}

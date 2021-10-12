@@ -1,0 +1,204 @@
+.area-card {
+  width: 50%;
+  padding: 20px;
+  @media (max-width: $md1 + 'px') {
+    width: 100%;
+    padding: 50px 0;
+  }
+  @media (max-width: $md4 + 'px') {
+    padding: 0 0 100px 0;
+  }
+  &__decor {}
+  &__content {
+    margin-top: 30px;
+    min-height: 330px;
+    border-left: 3px solid $blue;
+    border-right: 3px solid $blue;
+    border-bottom: 3px solid $blue;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    @media (max-width: 1500px) {
+      min-height: 360px;
+    }
+    @media (max-width: $md1 + 'px') {
+      min-height: 320px;
+    }
+    @media (max-width: $md4 + 'px') {
+      border-left: none;
+      border-right: none;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-width: 2px;
+    }
+    &_body {
+      padding: 20px 30px;
+      display: flex;
+      min-height: 100%;
+      @media (max-width: 1350px) {
+        padding: 20px 20px;
+      }
+      @media (max-width: $md1 + 'px') {
+        padding: 20px 50px;
+      }
+      @media (max-width: $md1 + 'px') {
+        padding: 20px 20px;
+      }
+      @media (max-width: 660px) {
+        flex-direction: column;
+      }
+      @media (max-width: $md4 + 'px') {
+        padding: 20px 0 40px 0;
+      }
+    }
+  }
+}
+
+.area-card-decor {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, .4);
+  @media (max-width: $md4 + 'px') {
+    margin: 0 -20px;
+    border-radius: 0;
+  }
+  &__img {
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    @media (max-width: $md4 + 'px') {
+      height: 300px;
+    }
+    
+    &_mask {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: rgba(0, 0, 0, .1);
+    }
+  }
+  &__text {
+    padding: 30px 0;
+    background-color: $darkBlue;
+    text-align: center;
+    color: #fff;
+    @media (max-width: $md4 + 'px') {
+      padding: 25px 0;
+    }
+    &_value {
+      @media (max-width: $md4 + 'px') {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+.area-card-specification {
+  flex: 50%;
+  &__title {
+    &_text {
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 17px;
+      color: $darkBlue;
+    }
+  }
+  &__list {
+    @media (max-width: 660px) {
+      display: flex;
+      justify-content: space-between;
+    }
+    @media (max-width: 520px) {
+      flex-wrap: wrap;
+    }
+  }
+}
+
+.area-specification-item {
+  padding-top: 20px;
+  padding-left: 10px;
+  @media (max-width: 520px) {
+    flex: 50%;
+  }
+  @media (max-width: 450px) {
+    flex: 100%;
+  }
+  &__title {
+    &_text {
+      text-transform: uppercase;
+      font-weight: bold;
+      color: $gray;
+      font-size: 14px;
+      @media (max-width: 660px) {
+        font-size: 12px;
+      }
+    }
+  }
+  &__info {
+    display: flex;
+    align-items: center;
+  }
+  &__text {
+    position: relative;
+    &_value {
+      text-transform: uppercase;
+      font-weight: bold;
+      color: #fff;
+      @media (max-width: 660px) {
+        font-size: 15px;
+      }
+    }
+    &_simbol {
+      font-weight: bold;
+      position: absolute;
+      top: -5px;
+      right: -8px;
+      color: #fff;
+    }
+  }
+}
+
+.area-card-information {
+  flex: 50%;
+  padding-left: 30px;
+  @media (max-width: 660px) {
+    padding-left: 0;
+    padding-top: 40px;
+  }
+  &__body {}
+  &__title {
+    &_text {
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 17px;
+      color: $darkBlue;
+    }
+  }
+  &__content {
+    padding-left: 25px;
+    &_list {}
+  }
+}
+
+.area-information-item {
+  padding-top: 20px;
+  position: relative;
+  &::before {
+    content: '';
+    position: absolute;
+    left: -20px;
+    top: 35px;
+    width: 10px;
+    height: 2px;
+    background: $darkBlue;
+  }
+  &__text {
+    line-height: 1;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+  }
+}

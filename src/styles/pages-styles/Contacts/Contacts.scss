@@ -1,0 +1,249 @@
+.contacts {
+  &__body {
+    min-height: 800px;
+    display: flex;
+    @media (max-width: 1340px) {
+      flex-wrap: wrap;
+    }
+    @media (max-width: $mobileWith+px) {
+      margin-top: 60px;
+    }
+  }
+  &__map {
+    flex: 40%;
+    min-height: 100%;
+    @media (max-width: 1340px) {
+      flex: 50%;
+    }
+    @media (max-width: $md2 + 'px') {
+      flex: 100%;
+      min-height: 400px;
+      order: 3;
+    }
+    &_body {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  &__info {
+    flex: 40%;
+    display: flex;
+    background-color: $blue;
+    @media (max-width: 1340px) {
+      flex: 50%;
+    }
+    @media (max-width: $md2 + 'px') {
+      flex: 100%;
+    }
+    &_body {
+      width: 100%;
+      padding: 100px 70px;
+      @media (max-width: 1340px) {
+        padding: 0px 50px;
+      }
+      @media (max-width: $mobileWith+px) {
+        padding: 0px 30px;
+      }
+      @media (max-width: $md2 + 'px') {
+        padding: 30px 70px;
+      }
+      @media (max-width: 680px) {
+        padding: 30px 30px;
+      }
+      @media (max-width: $md4 + 'px') {
+        padding: 30px 20px;
+      }
+    }
+    &_title {
+      width: 350px;
+      @media (max-width: 1340px) {
+        padding-top: 50px;
+      }
+      @media (max-width: $md4 + 'px') {
+        width: 100%;
+      }
+    }
+    &_content {
+      margin-top: 100px;
+      @media (max-width: $md4 + 'px') {
+        margin-top: 70px;
+      }
+    }
+  }
+  &__branches {
+    flex: 20%;
+    background-color: #000;
+    &_body {
+      padding: 115px 20px;
+      @media (max-width: 1340px) {
+        max-width: 1140px;
+        margin: 0 auto;
+        padding: 50px 15px;
+      }
+      @media (max-width: $md1 + 'px') {
+        max-width: 1020px;
+      }
+      @media (max-width: $mobileWith+px) {
+        max-width: 100%;
+        padding: 50px 20px;
+      }
+      @media (max-width: $md2 + 'px') {
+        order: 2;
+      }
+    }
+  }
+}
+
+
+
+// Contacts -Item
+.contacts-content-item {
+  height: 160px;
+  &__body {}
+  &__title {
+    position: relative;
+    &::before {
+      content: '';
+      position: absolute;
+      bottom: -21px;
+      left: 0;
+      width: 100px;
+      height: 1px;
+      background-color: #fff;
+    }
+    &_text {
+      color: $lightGray;
+      text-shadow: 1px 1px 1px #000;
+      font-size: 18px;
+    }
+  }
+  &__info {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    &_icon {
+      padding-right: 20px;
+      height: fit-content;
+      display: flex;
+      align-items: center;
+    }
+    &_text {}
+    &_text-value {
+      color: #fff;
+    }
+  }
+  &__decor {
+    margin-top: 20px;
+    background-color: $gray;
+    height: 1px;
+    width: 100%;
+  }
+}
+
+
+// Contacts - Branches
+.contacts-branches {
+  height: 100%;
+  &__title {
+    width: 100%;
+    &_text {
+      text-align: center;
+      display: block;
+      color: #fff;
+      text-transform: uppercase;
+      @media (max-width: 1340px) {
+        font-size: 35px;
+        line-height: 1;
+      }
+      @media (max-width: $md4 + 'px') {
+        font-size: 30px;
+      }
+    }
+  }
+  &__content {}
+  &__list {
+    @media (max-width: 1340px) {
+      display: flex;
+      justify-content: space-between;
+    }
+    @media (max-width: $mobileWith+px) {
+
+    }
+    @media (max-width: 860px) {
+      flex-wrap: wrap;
+    }
+    &_item {
+      margin-top: 90px;
+    }
+  }
+}
+
+.contacts-branches-item {
+  @media (max-width: 860px) {
+    width: 100%;
+  }
+  &__decor {
+    width: 300px;
+    position: relative;
+    @media (max-width: 1340px) {
+      width: 500px;
+    }
+    @media (max-width: $md1 + 'px') {
+      width: 400px;
+    }
+    @media (max-width: 860px) {
+      width: 100%;
+    }
+    &_img {
+      width: 100%;
+    }
+    &_mask {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(0, 0, 0, .2);
+    }
+  }
+  &__info {
+    padding-top: 20px;
+    &_body {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+  }
+  &__title {
+    position: relative;
+    &::before {
+      content: '';
+      position: absolute;
+      bottom: -11px;
+      right: 0;
+      width: 100px;
+      height: 1px;
+      background-color: #0051bd;
+    }
+    &_text {
+      color: $gray;
+      font-size: 18px;
+    }
+  }
+  &__line {
+    margin-top: 10px;
+    background-color: $gray;
+    height: 1px;
+    width: 100%;
+  }
+  &__content {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    &_text {
+      padding-left: 10px;
+      color: #fff;
+    }
+  }
+}

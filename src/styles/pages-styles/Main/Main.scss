@@ -1,0 +1,11 @@
+@import './MainEvents.scss';
+@import './MainInfo.scss';
+@import './MainNews.scss';
+
+.main {
+  &__body {}
+  &__slider {
+    background: #000;
+    padding-top: 45px;
+  }
+}
