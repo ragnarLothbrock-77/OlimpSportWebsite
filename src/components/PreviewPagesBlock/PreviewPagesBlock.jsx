@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon from '../Icon/Icon'
 
-function PreviewPagesBlock({ title, subtitle, mainColor = "#fff", titleColor = "#fff", shadowColor = "#000", icon = null }) {
+function PreviewPagesBlock({ title, subtitle, mainColor = "#fff", titleColor = "#fff", subtitleColor = '#e0e4e6', shadowColor = "#000", icon = null }) {
   return (
     <div className="preview">
       <div className="preview__body">
@@ -12,7 +12,7 @@ function PreviewPagesBlock({ title, subtitle, mainColor = "#fff", titleColor = "
             </div>
           </div>
           <div className="preview-info__subtitle">
-            <span className="preview-info__subtitle_text text-medium">{subtitle}</span>
+            <span className="preview-info__subtitle_text text-medium" style={{color: `${subtitleColor}`}}>{subtitle}</span>
           </div>
         </div>
         <div className="preview-icon">

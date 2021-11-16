@@ -5,7 +5,7 @@ import Icon from '../../../../Icon/Icon'
 function AreasMainActivities(props) {
   const list = props.areasActivities.map(item => {
     return (
-      <li className="areas-activities__list_item">
+      <li key={item.id} className="areas-activities__list_item">
         <Icon className="areas-activities__list_item-icon" name={item.activitiesIconName} color={item.activitiesIconColor}/>
       </li>
     )

@@ -6,7 +6,7 @@ function MainEventsItem(props) {
       <div className="events-item__body">
         <div className="events-item-content">
           <div className="events-item-content__title ">
-            <span className="events-item-content__title_text title-large">{props.title}</span>
+            <span className="events-item-content__title_text title-medium">{props.title}</span>
           </div>
           <div className="events-item-content__subtitle">
             <span className="events-item-content__subtitle_text text-medium">{props.subtitle}</span>

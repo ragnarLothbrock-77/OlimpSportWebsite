@@ -27,7 +27,7 @@ function Area(props) {
               title={props.title} 
               subtitle={props.subtitle}
               mainColor="#0051bd"
-              icon="area"
+              icon={props.icon}
             />
           </div>
         </div>

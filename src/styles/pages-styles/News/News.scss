@@ -1,0 +1,22 @@
+.news {
+  &__body {}
+}
+
+.news-preview {
+  padding-bottom: 100px;
+  background-color: $beautyPink;
+}
+
+
+.news-list {
+  padding-top: 150px;
+  display: flex;
+  margin: 0 -20px;
+  flex-wrap: wrap;
+  @media (max-width: $maxWidthContainer + 'px') {
+    margin: 0;
+  }
+  @media (max-width: 550px) {
+    margin: 0 -20px;
+  }
+}

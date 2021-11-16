@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react'
-import MainLogo from '../../../assets/icons/ol--1.svg'
+import React, { useEffect } from 'react'
+import MainLogo from '../../../assets/icons/olimpMainIcon.svg'
 import BurgerMenu from './BurgerMenu/BurgerMenu'
 import { useHeaderContext } from '../../../context/headerContext'
 import Navigation from '../../Navigation/Navigation'

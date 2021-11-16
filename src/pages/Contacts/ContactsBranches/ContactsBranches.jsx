@@ -1,6 +1,6 @@
 import React from 'react'
 import Icon from '../../../components/Icon/Icon'
-import { contactsBranchesConfig } from '../../../configurations/contactsConfig'
+import { contactsBranchesConfig } from '../../../configurations/Contacts/contactsConfig'
 
 function ContactsBranches() {
   const list = contactsBranchesConfig.map(item => {

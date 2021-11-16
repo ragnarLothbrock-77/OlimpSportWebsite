@@ -1,6 +1,6 @@
 import React, {useEffect, useRef, useState} from 'react';
 import SliderItem from './SliderItem/SliderItem';
-import { sliderConfig } from '../../configurations/sliderConfig';
+import { sliderConfig } from '../../configurations/Slider/sliderConfig';
 import Icon from '../../components/Icon/Icon'
 
 

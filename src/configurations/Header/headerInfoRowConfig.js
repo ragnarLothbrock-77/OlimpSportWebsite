@@ -1,9 +1,9 @@
 export const headerInfoRowConfig = [
   {
     id: 1,
-    icon: 'whatsUp',
-    value: '+7 925 100 00 00',
-    type: 'tel:+79251000000'
+    icon: 'phone',
+    value: '+7 495 850-83-89',
+    type: 'tel:+74958508389'
   },
   {
     id: 2,

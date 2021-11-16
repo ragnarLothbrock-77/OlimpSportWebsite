@@ -1,6 +1,6 @@
 import React from 'react'
 import Slider from '../../components/Slider/Slider'
-import { mainEventsConfig } from '../../configurations/mainEventsConfig'
+import { mainEventsConfig } from '../../configurations/Main/mainEventsConfig'
 import MainEvents from './MainEvents/MainEvents'
 import MainInfo from './MainInfo/MainInfo'
 import MainNews from './MainNews/MainNews'

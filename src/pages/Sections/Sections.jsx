@@ -1,13 +1,9 @@
 import React from 'react'
-import { sectionsListConfig } from '../../configurations/sectionsListConfig'
+import { sectionsListConfig } from '../../configurations/Sections/sectionsListConfig'
 import Sectionitem from './SectionItem/Sectionitem'
-import SectionSortPanel from './SectionsSortPanel/SectionSortPanel'
-import {useHeaderContext} from '../../context/headerContext'
-import MobileSortPanel from './MobileSortPanel/MobileSortPanel'
+
 
 function Sections() {
-  const { mobileWidth } = useHeaderContext()
-
   const list = sectionsListConfig.map(item => {
     return (
       <Sectionitem key={item.id} {...item} />
@@ -23,15 +19,6 @@ function Sections() {
           </div>
         </div>
         <div className="sections-сontent content-paddings">
-          {
-            mobileWidth 
-            ? <MobileSortPanel />
-            : <div className="sections-content-controllers">
-                <div className="sections-content-controllers__body">
-                  <SectionSortPanel />
-                </div>
-              </div>
-          }
           <ul className="sections-content-list">{list}</ul>
         </div>
       </div>

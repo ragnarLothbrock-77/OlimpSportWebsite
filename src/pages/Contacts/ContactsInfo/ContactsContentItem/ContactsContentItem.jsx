@@ -22,7 +22,7 @@ function ContactsContentItem(props) {
         <hr className="contacts-content-item__decor"/>
         <div className="contacts-content-item__info">
           <div className="contacts-content-item__info_icon">
-            <Icon name={props.icon} size="25" color="#00347b"/>
+            <Icon name={props.icon} size="35" color="#000"/>
           </div>
           <div className="contacts-content-item__info_text">
             { contentItemType() }

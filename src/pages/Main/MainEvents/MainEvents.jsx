@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import SectionTitle from '../../../components/SectionTitle/SectionTitle'
-import { mainEventsConfig } from '../../../configurations/mainEventsConfig'
+import { mainEventsConfig } from '../../../configurations/Main/mainEventsConfig'
 import MainEventsItem from './MainEventsItem/MainEventsItem'
 import MainEventsController from './MainEventsController/MainEventsController'
 

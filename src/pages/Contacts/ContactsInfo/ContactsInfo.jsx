@@ -1,7 +1,7 @@
 import React from 'react'
 import ContactsContentItem from './ContactsContentItem/ContactsContentItem'
 import TitleWithCorners from '../../../components/UI/TitleWithCorners/TitleWithCorners'
-import { contactsConfig } from '../../../configurations/contactsConfig'
+import { contactsConfig } from '../../../configurations/Contacts/contactsConfig'
 
 function ContactsInfo() {
   const list = contactsConfig.map(item => {

@@ -21,7 +21,7 @@ function SliderItem(props) {
         </div>
         <div className="slider-item-image">
           <div className="slider-item-image__mask"></div>
-          <img src={props.src} alt="slide" className="slider-item-image__img" />
+          <div  className="slider-item-image__img" style={{backgroundImage: `url(${props.src})`}}/>
         </div>
       </div>
     </div>

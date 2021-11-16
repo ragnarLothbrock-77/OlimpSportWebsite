@@ -1,7 +1,7 @@
 import React from 'react'
-import { footerConfig } from '../../configurations/footerConfig'
+import { footerConfig } from '../../configurations/Footer/footerConfig'
 import FooterItem from './FooterItem/FooterItem'
-import img from '../../assets/icons/ol10.svg'
+import img from '../../assets/icons/olimpMainIcon.svg'
 import SocialNetworks from '../SocialNetworks/SocialNetworks'
 import Icon from '../Icon/Icon'
 

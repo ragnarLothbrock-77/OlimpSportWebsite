@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import { mainInfoConfig } from '../../../configurations/mainInfoConfig'
+import { mainInfoConfig } from '../../../configurations/Main/mainInfoConfig'
 import MainInfoListItem from './MainInfoListItem/MainInfoListItem'
 
 function MainInfo() {
@@ -37,7 +37,7 @@ function MainInfo() {
             <span className="info-preview__title_text title-large">Преимущества</span>
           </div>
           <div className="info-preview__subtitle">
-            <span className="info-preview__subtitle_text text-medium">На всех наших базах работают суперопытные инструкторы, чемпионы и мастера спорта, которые с радостью научат вас всему, что знают сами. Они заслужили наше доверие, и мы точно знаем, что благодаря их профессионализму и индивидуальному подходу каждый пришедший в Силу ветра сможет достичь желаемых высот в парусном спорте. Знакомьтесь: воины Силы ветра (чтобы узнать больше о каждом, нажмите на фотографию).</span>
+            <span className="info-preview__subtitle_text text-medium">МБУ СК Олимп один из крупнейших спортивных комплексов Новой Москвы – это современная площадка для занятий спортом, проведения крупных спортивных мероприятий, соревнований в различных видах спорта. Своей целью мы ставим развитие физических и моральных качеств детей, популяризацию здорового образа жизни и развитие массового спорта в стране. Большой выбор спортивных секций от шахмат до BMX, для детей и взрослых любого возраста. В нашем распоряжении грамотные программы развития в каждом спортивном направлении и профессиональный тренерский штаб.</span>
           </div>
         </div>
         <div className="info__content content-paddings">

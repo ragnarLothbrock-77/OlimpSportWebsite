@@ -1,5 +1,5 @@
 import React from 'react'
-import { mainEventsConfig } from '../../../../configurations/mainEventsConfig'
+import { mainEventsConfig } from '../../../../configurations/Main/mainEventsConfig'
 import Icon from '../../../../components/Icon/Icon'
 
 function MainEventsController({prevStep, nextStep, current}) {

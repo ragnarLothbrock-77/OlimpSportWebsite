@@ -9,7 +9,7 @@ function SectionItemInformationAdvantages(props) {
         <div className="section-item-information-advantages__decor">
           <div className="section-item-information-advantages__decor_body">
             <div className="section-item-advantages-decor">
-              <div className="section-item-advantages-decor__image"></div>
+              <div className="section-item-advantages-decor__image" style={{backgroundImage: `url(${props.advantagesImage})`}}></div>
             </div>
           </div>
         </div>

@@ -12,11 +12,14 @@
     @media (max-width: $mobileWith + 'px') {
       margin: 0;
     }
+    @media (max-width: 400px) {
+      margin: 0 -20px;
+    }
   }
 }
 
 .team-person {
-  flex: 33.333%;
+  flex: 33.333% 0 0;
   padding: 0 20px;
   margin-bottom: 70px;
   @media (max-width: $mobileWith + 'px') {
@@ -53,6 +56,9 @@
     }
     @media (max-width: $md4 + 'px') {
       width: 100%;
+    }
+    @media (max-width: 400px) {
+      border-radius: 0;
     }
     @media (min-width: $mobileWith + 'px') {
       &:hover {

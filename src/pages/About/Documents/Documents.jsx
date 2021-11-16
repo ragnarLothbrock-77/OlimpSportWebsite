@@ -1,13 +1,13 @@
 import React from 'react'
 import Accordion from '../../../components/Accordion/Accordion.jsx'
 import PreviewPagesBlock from '../../../components/PreviewPagesBlock/PreviewPagesBlock.jsx'
-import { documentsData } from '../../../configurations/documentsConfig'
+import { documentsData } from '../../../configurations/About/Documents/documentsConfig'
 
 function Documents() {
   return (
     <section className="documents">
       <div className="documents__body _container">
-        <PreviewPagesBlock icon="docs" mainColor="#2baae2" title="Документы" subtitle="На всех наших базах работают суперопытные инструкторы, чемпионы и мастера спорта, которые с радостью научат вас всему, что знают сами. Они заслужили наше доверие, и мы точно знаем, что благодаря их профессионализму и индивидуальному подходу каждый пришедший в Силу ветра сможет достичь желаемых высот в парусном спорте."/>
+        <PreviewPagesBlock icon="docs" mainColor="#2baae2" title="Документы" subtitle="Ниже представлены документы и правовая информация МБУ СК ОЛИМП. Полное название организации: Муниципальное Бюджетное Учреждение Спортивный Клуб Олимп. Сокращённое название: МБУ СК Олимп. Год основания:  2005 "/>
         <Accordion 
           accordionConfig={documentsData}
           isDocs={true} 

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import { useHeaderContext } from '../../context/headerContext'
 import HeaderDesctopMode from './HeadeDesctopMode/HeaderDesctopMode'
 import HeaderMobileMode from './HeaderMobileMode/HeaderMobileMode'

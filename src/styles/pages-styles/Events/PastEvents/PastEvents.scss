@@ -1,0 +1,23 @@
+.past-events {
+  background-color: $lightBlack;
+  &__body {}
+}
+
+
+.past-events-filter {
+  margin: 100px 0;
+}
+
+
+.past-events-content {
+  &__body {}
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 100px;
+    @media (max-width: 890px) {
+      display: block;
+    }
+  }
+}

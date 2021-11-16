@@ -1,6 +1,6 @@
 import React from 'react'
 import PreviewMain from '../../components/PreviewPagesBlock/PreviewMain'
-import img from '../../assets/images/placesImages/places-1.JPG'
+import img from '../../assets/images/previewImages/placesPrevImage.jpg'
 import { placesConfig } from '../../configurations/Places/placesConfig'
 import PlaceItem from './PlaceItem/PlaceItem'
 
@@ -13,7 +13,7 @@ function Places() {
       <div className="places__body">
         <PreviewMain 
           title="Пространства" 
-          subtitle="У нас есть площадкт открытые, зактрытые, и велотрек. У нас есть площадкт открытые, зактрытые, и велотрек."
+          subtitle="В распоряжение СК Олимп находятся 5 открытых спортивных площадок, 3 крытых многофункциональных зала, 2 тренажёрных зала и профессиональный велотрек"
           decorImage={img}
         />
         <div className="places__content content-paddings">

@@ -11,10 +11,10 @@ function HeaderMobileConect() {
         <div className="header-info-item">
           <div className="header-info-item__body">
             <div className="header-info-item__icon">
-              <Icon name="whatsUp" color={phoneWidth ? "#fff" : "#808080"} size={phoneWidth ? "30": "20"}/>
+              <Icon name="phone" color={phoneWidth ? "#fff" : "#808080"} size={phoneWidth ? "40": "30"}/>
             </div>
-            <a href="tel:+79251000000" className="header-info-item__value">
-              <span className="header-info-item__value_text text-small">+ 7 925 100 00 00</span>
+            <a href="tel:+74958508389" className="header-info-item__value">
+              <span className="header-info-item__value_text text-small">+ 7 495 850-83-89 </span>
             </a>
           </div>
         </div>

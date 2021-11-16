@@ -8,7 +8,7 @@ function HeaderInfoRow() {
       <li key={item.id} className="header-info-item">
         <div className="header-info-item__body">
           <div className="header-info-item__icon">
-            <Icon name={item.icon} color="#808080" size="20"/>
+            <Icon name={item.icon} color="#fff" size="22"/>
           </div>
           <a href={item.type} className="header-info-item__value">
             <span className="header-info-item__value_text text-small">{item.value}</span>

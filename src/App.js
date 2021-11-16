@@ -1,4 +1,4 @@
-import {BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import {BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Main from './pages/Main/Main';
@@ -15,6 +15,8 @@ import Contacts from './pages/Contacts/Contacts';
 import { HeaderProveider } from './context/headerContext';
 import UpcomingEvents from './pages/Events/UpcomingEvents/UpcomingEvents';
 import PastEvents from './pages/Events/PastEvents/PastEvents';
+import News from './pages/News/News';
+
 
 function App() {
   return (
@@ -33,8 +35,10 @@ function App() {
           <Route component={Contacts} path="/contacts" />
           <Route component={UpcomingEvents} path="/upcoming-events/" />
           <Route component={PastEvents} path="/past-events/" />
+          <Route component={News} path="/news/" />
           <Route path="/sections/:id"><Section /></Route>
           <Route path="/places/:id"><AreasByType /></Route>
+          <Redirect to={'/'} />
         </Switch>
         <Footer /> 
       </Router>

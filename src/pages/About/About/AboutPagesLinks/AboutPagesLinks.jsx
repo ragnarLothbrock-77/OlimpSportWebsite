@@ -1,9 +1,9 @@
 import React from 'react'
-import { AboutPagesLinksCardsListConfig } from '../../../../configurations/aboutPagesLinksCardsListConfig'
+import { aboutPagesLinksCardsListConfig } from '../../../../configurations/About/About/aboutPagesLinksCardsListConfig'
 import AboutPagesLinksCard from './AboutPagesLinksCard/AboutPagesLinksCard'
 
 function AboutPagesLinks() {
-  const list = AboutPagesLinksCardsListConfig.map(item => {
+  const list = aboutPagesLinksCardsListConfig.map(item => {
     return (
       <AboutPagesLinksCard key={item.id} {...item} />
     )
@@ -21,7 +21,7 @@ function AboutPagesLinks() {
             </div>
             <ul className="about-links-prev__list">
               <li className="about-links-prev__list_item text-medium">Познакомиться с командой специалистов</li>
-              <li className="about-links-prev__list_item text-medium">Ознакомиться с полным перечнем документов СК Олимп</li>
+              <li className="about-links-prev__list_item text-medium">Ознакомиться с полным перечнем документов МБУ СК Олимп</li>
               <li className="about-links-prev__list_item text-medium">Узнать больше о часто задаваемых вопросах связанных с посещением занятий</li>
             </ul>
           </div>

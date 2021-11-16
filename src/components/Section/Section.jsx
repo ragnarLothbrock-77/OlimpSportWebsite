@@ -1,6 +1,6 @@
 import React from 'react'
-import {useParams} from 'react-router-dom'
-import { sectionListByEachInfomationConfig } from '../../configurations/sectionListByEachInfomationConfig'
+import { useParams } from 'react-router-dom'
+import { sectionListByEachInfomationConfig } from '../../configurations/Sections/sectionListByEachInfomationConfig'
 import SectionContent from './SectionContent/SectionContent'
 
 function Section() {
@@ -8,9 +8,7 @@ function Section() {
 
   const content = sectionListByEachInfomationConfig.map(item => {
     if(item.type === id) {
-      return (
-        <SectionContent {...item} key={item.id}/>
-      )
+      return <SectionContent {...item} key={item.id}/>
     }
   })
 

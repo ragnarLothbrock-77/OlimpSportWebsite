@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import mainIcon from '../../../assets/icons/ol--1.svg'
+import mainIcon from '../../../assets/icons/olimpMainIcon.svg'
 import { useHeaderContext } from '../../../context/headerContext'
 import Navigation from '../../Navigation/Navigation'
 import HeaderInfoRow from './HeaderInfoRow/HeaderInfoRow'

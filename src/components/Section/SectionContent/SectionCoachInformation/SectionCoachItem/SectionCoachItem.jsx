@@ -2,7 +2,7 @@ import React from 'react'
 
 function SectionCoachItem(props) {
   return (
-    <li className="section-coach-item">
+    <li className={`section-coach-item ${props.coachItemSize}`}>
       <div className={`section-coach-item__body ${props.extraClass}`} style={{backgroundImage: `url(${props.coachPhoto})`}}>
         <div className="coach-item-info">
           <div className="coach-item-info__name">

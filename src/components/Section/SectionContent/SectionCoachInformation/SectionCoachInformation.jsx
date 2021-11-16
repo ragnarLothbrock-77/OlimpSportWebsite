@@ -14,8 +14,8 @@ function SectionCoachInformation(props) {
             </div>
           </div>
           <div className="section-coach-content">
-            <div className="section-coach-content__body">
-              <ul className="section-coach-content__list">
+            <div className={`section-coach-content__body ${props.amount}`}>
+              <ul className="section-coach-content__list" style={{justifyContent: `${props.position}`}}>
                 {
                   props.coachesInfo.map(item => {
                     return (
@@ -24,7 +24,7 @@ function SectionCoachInformation(props) {
                   })
                 }
               </ul>
-              <div className="section-coach-content__link">
+              <div className={`section-coach-content__link ${props.link}`}>
                 <Button text="Подробнее" to="/team" color="#000" buttonBorder="#000" buttonBackground="#fff"/>
               </div>
             </div>

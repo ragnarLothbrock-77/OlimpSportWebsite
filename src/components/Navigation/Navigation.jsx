@@ -1,5 +1,5 @@
 import React from 'react'
-import { navigationConfig } from '../../configurations/navigationConfig'
+import { navigationConfig } from '../../configurations/Header/Navigation/navigationConfig'
 import NavigationItem from './NavigationItem/NavigationItem'
 import NavigationDropdown from './NavigationItem/NavigationDropdownItem/NavigationDropdown'
 
