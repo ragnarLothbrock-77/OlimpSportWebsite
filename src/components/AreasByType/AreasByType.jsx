@@ -12,6 +12,7 @@ function AreasByType() {
         <Areas {...item} key={item.id}/>
       )
     }
+    return null
   })
 
 

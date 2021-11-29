@@ -72,7 +72,7 @@ export const navigationConfig = [
       },
       {
         id: 2.9,
-        name: 'ТЕННИС',
+        name: 'НАСТОЛЬНЫЙ ТЕННИС',
         to: '/sections/tennis'
       },
       {
@@ -85,7 +85,7 @@ export const navigationConfig = [
   {
     id: 3,
     name: 'НОВОСТИ',
-    to: '/news/',
+    to: '/news',
     isDrop: false,
     isLink: true,
     dropContent: []
@@ -133,7 +133,7 @@ export const navigationConfig = [
       },
       {
         id: 5.4,
-        name: 'ВЕЛЛОТРЕК',
+        name: 'ВЕЛОТРЕК',
         to: '/places/biketrack'
       }
     ]

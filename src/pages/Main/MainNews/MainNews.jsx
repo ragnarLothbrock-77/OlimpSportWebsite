@@ -12,6 +12,7 @@ function MainNews() {
         <MainNewsItem {...item} key={item.id}/>
       )
     }
+    return null
   })
 
   return (

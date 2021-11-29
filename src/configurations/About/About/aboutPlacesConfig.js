@@ -2,7 +2,7 @@ export const aboutPlacesConfig = [
   {
     id: 1,
     image: require('../../../assets/images/placesImages/buildingsImages/olimpBuilding.jpg').default,
-    location: 'Красная Пахра, 9A',
+    location: 'Красная Пахра, 11',
     cls: 'img-1'
   },
   {

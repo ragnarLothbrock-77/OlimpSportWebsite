@@ -1,0 +1,38 @@
+.pagination {
+  &__body {
+    padding: 30px 0;
+  }
+}
+
+.pagination-list {
+  display: flex;
+  &__item {
+    margin-right: 70px;
+    color: $gray;
+    text-shadow: 1px 1px 1px #000;
+    transition: 0.3s color ease-out;
+    &:hover {
+      color: #fff;
+    }
+    &_value {
+      font-size: 30px;
+    }
+  }
+}
+
+.pagination-item-active {
+  position: relative;
+  color: #fff;
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 5px;
+    height: 5px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 1px $lightBlack;
+  }
+}

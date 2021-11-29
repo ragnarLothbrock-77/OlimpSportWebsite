@@ -4,7 +4,7 @@
 
 .news-preview {
   padding-bottom: 100px;
-  background-color: $beautyPink;
+  background-color: $lightGray;
 }
 
 
@@ -18,5 +18,11 @@
   }
   @media (max-width: 550px) {
     margin: 0 -20px;
+    padding-top: 0;
   }
+}
+
+
+.news-pagination {
+  background: $blue;
 }

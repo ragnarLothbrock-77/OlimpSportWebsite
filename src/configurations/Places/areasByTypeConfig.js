@@ -8,7 +8,7 @@ export const areasByType = [
     areas: [
       {
         id: 1.1,
-        areasLocation: 'Красная Пахра , 9А',
+        areasLocation: 'Красная Пахра , 11',
         areasCards: [
           {
             id: '1.1.1',
@@ -77,7 +77,7 @@ export const areasByType = [
           {
             id: 2,
             mainIcon: 'map',
-            mainInfoTitle: 'Красная Пахра, 9А',
+            mainInfoTitle: 'Красная Пахра, 11',
             mainIconSize: '150',
             extraClass: 'main-bigger-text'
           },
@@ -298,7 +298,7 @@ export const areasByType = [
     areas: [
       {
         id: 2.1,
-        areasLocation: 'Красная Пахра , 9А',
+        areasLocation: 'Красная Пахра , 11',
         areasCards: [
           {
             id: '2.1.1',
@@ -340,7 +340,7 @@ export const areasByType = [
           {
             id: 2,
             mainIcon: 'map',
-            mainInfoTitle: 'Красная Пахра, 9А',
+            mainInfoTitle: 'Красная Пахра, 11',
             mainIconSize: '150',
             extraClass: 'main-bigger-text'
           },
@@ -514,7 +514,7 @@ export const areasByType = [
     areas: [
       {
         id: 3.1,
-        areasLocation: 'Красная Пахра , 9А',
+        areasLocation: 'Красная Пахра , 11',
         areasCards: [
           {
             id: '3.1.1',
@@ -556,7 +556,7 @@ export const areasByType = [
           {
             id: 2,
             mainIcon: 'map',
-            mainInfoTitle: 'Красная Пахра, 9А',
+            mainInfoTitle: 'Красная Пахра, 11',
             mainIconSize: '150',
             extraClass: 'main-bigger-text'
           },
@@ -661,7 +661,7 @@ export const areasByType = [
     areas: [
       {
         id: 4.1,
-        areasLocation: 'Красная Пахра , 9А',
+        areasLocation: 'Красная Пахра , 11',
         areasCards: [
           {
             id: '4.1.1',
@@ -703,7 +703,7 @@ export const areasByType = [
           {
             id: 2,
             mainIcon: 'map',
-            mainInfoTitle: 'Красная Пахра, 9А',
+            mainInfoTitle: 'Красная Пахра, 11',
             mainIconSize: '150',
             extraClass: 'main-bigger-text'
           },

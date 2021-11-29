@@ -6,11 +6,19 @@ function SocialNetworks() {
   const list = networksConfig.map(item => {
     return (
       <li className="networks-list-item" key={item.key}>
-        <a href={item.to} className="networks-list-item__link" target="_blank" rel="noopener noreferrer">
-          <div className="networks-list-item__icon">
-            <Icon className="networks-list-item__icon_ico" name={item.name} size={item.size} />
-          </div>
-        </a>
+        {
+          item.isNetwork
+          ? <a href={item.to} className="networks-list-item__link" target="_blank" rel="noopener noreferrer">
+              <div className="networks-list-item__icon">
+                <Icon className="networks-list-item__icon_ico" name={item.name} size={item.size} />
+              </div>
+            </a>
+          : <a href={item.to} className="networks-list-item__link">
+              <div className="networks-list-item__icon">
+                <Icon className="networks-list-item__icon_ico" name={item.name} size={item.size} />
+              </div>
+            </a>
+        }
       </li>
     )
   })

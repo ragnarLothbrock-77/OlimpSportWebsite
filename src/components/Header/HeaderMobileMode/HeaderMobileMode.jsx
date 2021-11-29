@@ -15,6 +15,7 @@ function HeaderMobileMode() {
     return () => {
       window.removeEventListener('resize', handlePhoneWidth)
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   

@@ -10,6 +10,7 @@ function Section() {
     if(item.type === id) {
       return <SectionContent {...item} key={item.id}/>
     }
+    return null
   })
 
 

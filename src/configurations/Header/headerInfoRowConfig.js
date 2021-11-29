@@ -8,7 +8,7 @@ export const headerInfoRowConfig = [
   {
     id: 2,
     icon: 'mail',
-    value: 'some-mail@.ru',
-    type: 'mailto:some-mail@.ru'
+    value: 'Olimp.post@inbox.ru',
+    type: 'mailto:Olimp.post@inbox.ru'
   }
 ]

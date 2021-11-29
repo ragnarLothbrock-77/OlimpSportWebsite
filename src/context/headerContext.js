@@ -12,6 +12,7 @@ export const HeaderProveider = ({children}) => {
   const [mobileWidth, setMobileWidth] = useState(false)
   const [mobileSideBar, setMobileSideBar] = useState(false)
   const [phoneWidth, setPhoneWidth] = useState(false)
+  const [arrow, setArrow] = useState(false)
   const burgerInput = useRef()
   const page = document.querySelector('body')
 
@@ -57,6 +58,14 @@ export const HeaderProveider = ({children}) => {
     }
   }
 
+  const handleAutoScrollArrow = () => {
+    if (window.pageYOffset >= 2000) {
+      setArrow(true)
+    } else {
+      setArrow(false)
+    }
+  }
+
 
   return (
     <HeaderContext.Provider value={{
@@ -64,7 +73,7 @@ export const HeaderProveider = ({children}) => {
       mobileWidth, handleMobileWidth,
       mobileSideBar, handleMobileSideBar,
       phoneWidth, setPhoneWidth, handlePhoneWidth, 
-      burgerInput
+      burgerInput, arrow, handleAutoScrollArrow
     }}>{children}</HeaderContext.Provider>
   )
 }

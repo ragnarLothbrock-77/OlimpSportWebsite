@@ -8,7 +8,7 @@ export const placesConfig = [
       {
         id: 1.1,
         placeImage: require('../../assets/images/placesImages/mainAreasImages/place-1.jpg').default,
-        placeName: 'Площадка Красная Пахра, 9А',
+        placeName: 'Площадка Красная Пахра, 11',
         placeDescription: 'Многофункциональная площадка для занятий игровыми видами спорта. Оборудована футбольными воротами и баскетбольными кольцами',
         imageStyle: 'places-decor-image-small',
         extraCls: 'places-item-small' 
@@ -16,7 +16,7 @@ export const placesConfig = [
       {
         id: 1.2,
         placeImage: require('../../assets/images/placesImages/mainAreasImages/place-2.jpg').default,
-        placeName: 'Площадка Красная Пахра, 9А',
+        placeName: 'Площадка Красная Пахра, 11',
         placeDescription: 'Площадка для занятий силовыми видами спорта и воркаутом. Оснащена современными тренажёрами',
         imageStyle: 'places-decor-image-small',
         extraCls: 'places-item-small'  
@@ -56,7 +56,7 @@ export const placesConfig = [
       {
         id: 2.1,
         placeImage: require('../../assets/images/placesImages/mainAreasImages/place-6.jpg').default,
-        placeName: 'Зал Красная Пахра, 9А',
+        placeName: 'Зал Красная Пахра, 11',
         placeDescription: 'Зал для занятий боевыми единоборствами. Покрытие пола - маты. Может использоваться как зал для кардио тренировок.' ,
         imageStyle: 'places-decor-image-small',
         extraCls: 'places-item-small' 
@@ -88,7 +88,7 @@ export const placesConfig = [
       {
         id: 3.1,
         placeImage: require('../../assets/images/placesImages/mainAreasImages/place-9.jpg').default,
-        placeName: 'Тренажёраный зал Красная Пахра, 9А',
+        placeName: 'Тренажёраный зал Красная Пахра, 11',
         placeDescription: 'Тренажёрный зал оснащён всем необходимым инвентарём для занятий силовыми тренировками. Имеются тренажёры для кардио нагрузок.',
         imageStyle: 'places-decor-image-medium',
         extraCls: 'places-item-medium'  

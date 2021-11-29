@@ -1,0 +1,53 @@
+.top-button {
+  position: fixed;
+  right: 20px;
+  bottom: 10vh;
+  z-index: 10000;
+  &:hover > div  {
+    background-image: linear-gradient(to top, #000, $darkBlue);
+  }
+  @media (max-width: 1350px) {
+    right: 10px;
+  }
+  @media (max-width: 1025px) {
+    display: none;
+  }
+  &__body {
+    color: red;
+    width: 25px;
+    height: 100px;
+    border: 2px solid rgba(0, 81, 189, 1);
+    border-radius: 5px;
+    position: relative;
+    transition: background 4s ease-out;
+    &:hover {
+      background: linear-gradient(to top, #000, $darkBlue);
+    }
+    &:hover > div {
+      top: 2px;
+    }
+    &:hover > div > svg {
+      fill: #fff;
+    }
+    @media (max-width: 1350px) {
+      border: 2px solid rgba(0, 81, 189, .3);
+      width: 18px;
+      height: 80px;
+    }
+    &_icon {
+      position: absolute;
+      top: 60px;
+      left: 50%;
+      transform: translateX(-52%);
+      transition: top .3s ease-out;
+      @media (max-width: 1350px) {
+        top: 50px;
+      }
+      & svg {
+        @media (max-width: 1350px) {
+          width: 18px;
+        }
+      }
+    }
+  }
+}

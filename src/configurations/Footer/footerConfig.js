@@ -76,20 +76,20 @@ export const footerConfig = [
       },
       {
         id: 3.2,
-        name: '108828 г.Москва, п.Краснопахорское, с.Красная Пахра, ул.Заводская, д.20',
+        name: '108828 г.Москва,п.Краснопахорское, с.Красная Пахра, 11',
         isLink: false
       },
       {
         id: 3.3,
-        name: 'Ежедневно с 10:00 до 24:00',
+        name: 'Ежедневно с 09:00 до 22:00',
         isLink: false
       },
       {
         id: 3.4,
-        name: 'Почта: someMail@mail.ru',
+        name: 'Почта: Olimp.post@inbox.ru',
         isLink: true,
         isMedia: true,
-        type: 'mailto:someMail@mail.ru'
+        type: 'mailto:Olimp.post@inbox.ru'
       }
     ]
   }

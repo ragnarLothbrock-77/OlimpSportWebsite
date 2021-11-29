@@ -151,7 +151,7 @@ export const sectionListByEachInfomationConfig = [
         'Сменная обувь и форма обязательна',
         'Форма: футболка и шорты, футбольные бутсы',
         'Занятия проходят на современных площадках с искусственным покрытием',
-        'Упор делается на развитие физических способностей ребёнка'
+        'Команда принимает участие в районных и городских соревнованиях'
       ],
       groupImage: require('../../assets/images/sectionsImages/football/groupsImages/football-group-4.jpg').default
      }
@@ -181,11 +181,11 @@ export const sectionListByEachInfomationConfig = [
   {
     id: 2,
     type: 'bmx',
-    previewTitle: 'BMX Велоспорт',
+    previewTitle: 'Велосипедный спорт ВМХ',
     previewSubtitle: 'Потрясающий велотрек. Эффективная методика тренировок. Большой опыт тренера. Программы, адаптированные для самых молодых спортсменов.',
     previewImage: require('../../assets/images/sectionsImages/BMX/bmx-prev-image.jpg').default,
     age: '5 до 15',
-    group: 'велоспорт',
+    group: 'Велосипедный спорт ВМХ',
     amount: 'single-coach',
     link: 'single-coach-link-left',
     mainInfo: 'BMX — один из самых сложных видов велоспорта. Выполнение трюков требует от спортсмена определенных навыков. Но прежде чем освоить их, необходимо научиться уверенной езде на классическом велосипеде. Это могут сделать родители или тренер. В некоторых секциях для детей 3-4 лет проводят занятия на двухколесных велосипедах или беговелах. К 5-6 годам ребята уже владеют навыками, которые помогут им развиваться выбранном направлении BMX. ',
@@ -218,7 +218,7 @@ export const sectionListByEachInfomationConfig = [
       groupCoach: 'Татьяна Карабак', 
       groupPrice: 'Бесплатно',
       groupDuration: '60 - 120',
-      groupLocation: 'Красная Пахра , 9А',
+      groupLocation: 'Красная Пахра , 11',
       groupAge: '5 - 8',
       groupFormat: 'Младшая группа',
       groupShedule: [
@@ -252,7 +252,7 @@ export const sectionListByEachInfomationConfig = [
       groupCoach: 'Татьяна Карабак', 
       groupPrice: 'Бесплатно',
       groupDuration: '90',
-      groupLocation: 'Красная Пахра , 9А',
+      groupLocation: 'Красная Пахра , 11',
       groupAge: '9 - 15',
       groupFormat: 'Старшая группа',
       groupShedule: [
@@ -292,7 +292,7 @@ export const sectionListByEachInfomationConfig = [
        id: 1,
        coachName: 'Татьяна Карабак',
        coachAge: '35',
-       coachDescription: 'Прекрасный тренер и хороший человек. Очень любит детей и главной целью жизни ставит воспитание нового поколения топовых футболистов.',
+       coachDescription: 'Прекрасный тренер и хороший человек. Очень любит детей и главной целью жизни ставит воспитание нового поколения профессиональных велогонщиков.',
        coachPhoto: require('../../assets/images/personalPhoto/CutedPhoto/TatianaKarabak.png').default,
        extraClass: 'left-item',
        coachItemSize: 'single-coach-item'
@@ -423,7 +423,7 @@ export const sectionListByEachInfomationConfig = [
         'Сменная обувь и форма обязательна',
         'Обязательно наличие защиты, шлема и коньков',
         'Занятия в зимний период проходят на хоккейной площадке',
-        'Упор делается на развитие физических способностей ребёнка'
+        'Команда принимает участие в районных и городских соревнованиях'
       ],
       groupImage: require('../../assets/images/sectionsImages/hockey/groupsImages/hockey-group-3.jpg').default
      }
@@ -433,7 +433,7 @@ export const sectionListByEachInfomationConfig = [
        id: 1,
        coachName: 'Николай Моторнов',
        coachAge: '25',
-       coachDescription: 'Прекрасный тренер и хороший человек. Очень любит детей и главной целью жизни ставит воспитание нового поколения топовых футболистов.',
+       coachDescription: 'Прекрасный тренер и хороший человек. Очень любит детей и главной целью жизни ставит воспитание нового поколения топовых хоккеистов.',
        coachPhoto: require('../../assets/images/personalPhoto/CutedPhoto/NikolayMotornov.png').default,
        extraClass: 'right-item',
        coachItemSize: 'single-coach-item'
@@ -447,7 +447,7 @@ export const sectionListByEachInfomationConfig = [
     previewSubtitle: 'Обучение игре с нуля и совершенствование навыков под руководством опытного тренера. Групповые тренировки по грамотно подобранным программам.',
     previewImage: require('../../assets/images/sectionsImages/valeyball/valeyball-prev-image.jpg').default,
     age: '9 до 18',
-    group: 'воллейбол',
+    group: 'волейбол',
     position: 'flex-start',
     amount: 'single-coach',
     link: 'single-coach-link-left',
@@ -618,7 +618,7 @@ export const sectionListByEachInfomationConfig = [
        id: 1,
        coachName: 'Игорь Белослюдов',
        coachAge: '50',
-       coachDescription: 'Прекрасный тренер и хороший человек. Очень любит детей и главной целью жизни ставит воспитание нового поколения топовых футболистов.',
+       coachDescription: 'Прекрасный тренер и хороший человек. Очень любит детей и главной целью жизни ставит воспитание нового поколения профессиональных волейболистов.',
        coachPhoto: require('../../assets/images/personalPhoto/CutedPhoto/IgorBelaslyudov.png').default,
        extraClass: 'left-item',
        coachItemSize: 'single-coach-item'
@@ -665,7 +665,7 @@ export const sectionListByEachInfomationConfig = [
       groupCoach: 'Никита Краев', 
       groupPrice: 'Бесплатно',
       groupDuration: '75 - 90',
-      groupLocation: 'Красная Пахра , 9А',
+      groupLocation: 'Красная Пахра , 11',
       groupAge: '7 - 9',
       groupFormat: 'Младшая группа',
       groupShedule: [
@@ -694,7 +694,7 @@ export const sectionListByEachInfomationConfig = [
       groupCoach: 'Сергей Миронов', 
       groupPrice: 'Бесплатно',
       groupDuration: '90',
-      groupLocation: 'Красная Пахра , 9А',
+      groupLocation: 'Красная Пахра , 11',
       groupAge: '9 - 12',
       groupFormat: 'Средняя группа',
       groupShedule: [
@@ -723,7 +723,7 @@ export const sectionListByEachInfomationConfig = [
       groupCoach: 'Сергей Миронов', 
       groupPrice: 'Бесплатно',
       groupDuration: '90 - 120',
-      groupLocation: 'Красная Пахра , 9А',
+      groupLocation: 'Красная Пахра , 11',
       groupAge: '12 +',
       groupFormat: 'Старшая группа',
       groupShedule: [
@@ -763,7 +763,7 @@ export const sectionListByEachInfomationConfig = [
       id: 1,
       coachName: 'Никита Краев',
       coachAge: '22',
-      coachDescription: 'Прекрасный тренер и хороший человек. Очень любит детей и главной целью жизни ставит воспитание нового поколения топовых футболистов.',
+      coachDescription: 'Прекрасный тренер и хороший человек. Очень любит детей и главной целью жизни ставит воспитание нового поколения профессиональных кикбоксёров.',
       coachPhoto: require('../../assets/images/personalPhoto/CutedPhoto/NikitaKraev.png').default,
       extraClass: 'left-item',
       coachItemSize: 'multi-coach-item'
@@ -772,7 +772,7 @@ export const sectionListByEachInfomationConfig = [
       id: 2 ,
       coachName: 'Сергей Миронов',
       coachAge: '35',
-      coachDescription: 'Прекрасный тренер и хороший человек. Очень любит детей и главной целью жизни ставит воспитание нового поколения топовых футболистов.',
+      coachDescription: 'Прекрасный тренер и хороший человек. Очень любит детей и главной целью жизни ставит воспитание нового поколения профессиональных кикбоксёров.',
       coachPhoto: require('../../assets/images/personalPhoto/CutedPhoto/SergeyMironov.png').default,
       extraClass: 'right-item second-coach',
       coachItemSize: 'multi-coach-item'
@@ -820,7 +820,7 @@ export const sectionListByEachInfomationConfig = [
       groupCoach: 'Илья Дорощенков', 
       groupPrice: 'Бесплатно',
       groupDuration: '120',
-      groupLocation: 'Красная Пахра , 9А',
+      groupLocation: 'Красная Пахра , 11',
       groupAge: '5 - 18',
       groupFormat: 'Основная группа',
       groupShedule: [
@@ -860,7 +860,7 @@ export const sectionListByEachInfomationConfig = [
        id: 1,
        coachName: 'Илья Дорощенков',
        coachAge: '21',
-       coachDescription: 'Прекрасный тренер и хороший человек. Очень любит детей и главной целью жизни ставит воспитание нового поколения топовых футболистов.',
+       coachDescription: 'Прекрасный тренер и хороший человек. Очень любит детей и главной целью жизни ставит воспитание нового поколения профессиональных самбистов.',
        coachPhoto: require('../../assets/images/personalPhoto/CutedPhoto/IliyaDoroshenkov.png').default,
        extraClass: 'right-item',
        coachItemSize: 'single-coach-item'
@@ -908,7 +908,7 @@ export const sectionListByEachInfomationConfig = [
       groupCoach: 'Александр Черных', 
       groupPrice: 'Бесплатно',
       groupDuration: '120',
-      groupLocation: 'Красная Пахра , 9А',
+      groupLocation: 'Красная Пахра , 11',
       groupAge: '5 - 18',
       groupFormat: 'Первая группа',
       groupShedule: [
@@ -937,7 +937,7 @@ export const sectionListByEachInfomationConfig = [
       groupCoach: 'Александр Черных', 
       groupPrice: 'Бесплатно',
       groupDuration: '90',
-      groupLocation: 'Красная Пахра , 9А',
+      groupLocation: 'Красная Пахра , 11',
       groupAge: '5 - 18',
       groupFormat: 'Вторая группа',
       groupShedule: [
@@ -967,7 +967,7 @@ export const sectionListByEachInfomationConfig = [
        id: 1,
        coachName: 'Александр Черных',
        coachAge: '45',
-       coachDescription: 'Прекрасный тренер и хороший человек. Очень любит детей и главной целью жизни ставит воспитание нового поколения топовых футболистов.',
+       coachDescription: 'Прекрасный тренер и хороший человек. Очень любит детей и главной целью жизни ставит воспитание нового поколения профессиональных лыжных гонщиков.',
        coachPhoto: require('../../assets/images/personalPhoto/CutedPhoto/AleksandrChernih.png').default,
        extraClass: 'right-item',
        coachItemSize: 'single-coach-item'
@@ -1049,7 +1049,7 @@ export const sectionListByEachInfomationConfig = [
        id: 1,
        coachName: 'Иван Баранов',
        coachAge: '45',
-       coachDescription: 'Прекрасный тренер и хороший человек. Очень любит детей и главной целью жизни ставит воспитание нового поколения топовых футболистов.',
+       coachDescription: 'Прекрасный тренер и хороший человек. Очень любит детей и главной целью жизни ставит воспитание нового поколения шахматистов.',
        coachPhoto: require('../../assets/images/personalPhoto/CutedPhoto/tamplatePersonR.png').default,
        extraClass: 'right-item',
        coachItemSize: 'single-coach-item'
@@ -1131,7 +1131,7 @@ export const sectionListByEachInfomationConfig = [
        id: 1,
        coachName: 'Сергей Дроздов',
        coachAge: '50',
-       coachDescription: 'Прекрасный тренер и хороший человек. Очень любит детей и главной целью жизни ставит воспитание нового поколения топовых футболистов.',
+       coachDescription: 'Прекрасный тренер и хороший человек. Очень любит детей и главной целью жизни ставит воспитание нового поколения теннисистов.',
        coachPhoto: require('../../assets/images/personalPhoto/CutedPhoto/SergeyDrozdov.png').default,
        extraClass: 'left-item',
        coachItemSize: 'single-coach-item'
@@ -1178,7 +1178,7 @@ export const sectionListByEachInfomationConfig = [
       groupCoach: 'Ирина Ломтева', 
       groupPrice: 'Бесплатно',
       groupDuration: '60',
-      groupLocation: 'Красная Пахра , 9А',
+      groupLocation: 'Красная Пахра , 11',
       groupAge: '5 +',
       groupFormat: 'Основная группа',
       groupShedule: [
@@ -1213,7 +1213,7 @@ export const sectionListByEachInfomationConfig = [
        id: 1,
        coachName: 'Ирина Ломтева',
        coachAge: '30',
-       coachDescription: 'Прекрасный тренер и хороший человек. Очень любит детей и главной целью жизни ставит воспитание нового поколения топовых футболистов.',
+       coachDescription: 'Прекрасный тренер и хороший человек. Очень любит детей и главной целью жизни ставит воспитание здорового и физически развитого поколения.',
        coachPhoto: require('../../assets/images/personalPhoto/CutedPhoto/IrinaLomteva.png').default,
        extraClass: 'left-item',
        coachItemSize: 'single-coach-item'
