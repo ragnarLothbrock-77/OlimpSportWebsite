@@ -1,45 +1,34 @@
 export const pastEventsConfiig = [
   {
-    id: 0,
-    name: 'Забег по пересеченной местности «Глинный кросс»',
-    image: require('../../assets/images/newsImages/news-5.jpg').default,
-    location: 'г. Москва, с.Красная Пахра, д.Варварино',
-    date: '17 октября 2021 ( воскресенье )',
-    documentation: require('../../assets/docs/eventsDocs/upcomingEventsDocs/clubs-shedule 21.35.06.pdf').default,
-    isPast: true,
-    gallery: [
-      {id: 1, src: require('../../assets/images/eventImages/pastEvents/3/pastEvent-3.1.jpeg').default, alt: 'Забег по пересеченной местности - 1'},
-      {id: 4, src: require('../../assets/images/eventImages/pastEvents/3/pastEvent-3.2.jpeg').default, alt: 'Забег по пересеченной местности - 2'},
-      {id: 5, src: require('../../assets/images/eventImages/pastEvents/3/pastEvent-3.3.jpeg').default, alt: 'Забег по пересеченной местности - 3'}
-    ]
-  },
-  {
     id: 1,
-    name: 'Окружные отборочные соревнования по волейболу среди юношей и девушек до 17 лет',
-    image: require('../../assets/images/newsImages/news-7.jpg').default,
-    location: 'г. Москва, с.Красная Пахра, Заводская 20',
-    date: '9 - 10 октября 2021 ( суббота, воскресенье )',
-    documentation: require('../../assets/docs/eventsDocs/upcomingEventsDocs/clubs-shedule 21.35.06.pdf').default,
+    name: 'Рождественская лыжная гонка в Краснопахорском поселении',
+    image: require('../../assets/images/newsImages/news-41.jpg').default,
+    location: 'г. Москва, с.Красная Пахра, Лыжная трасса в д.Варварино',
+    date: '7 января 2022 ( пятница )',
+    documentation: '',
     isPast: true,
     gallery: [
-      {id: 1, src: require('../../assets/images/eventImages/pastEvents/1/pastEvent-1.1.jpeg').default, alt: 'Окружные соревнования по волейболу - 1'},
-      {id: 4, src: require('../../assets/images/eventImages/pastEvents/1/pastEvent-1.2.jpeg').default, alt: 'Окружные соревнования по волейболу - 2'},
-      {id: 5, src: require('../../assets/images/eventImages/pastEvents/1/pastEvent-1.3.jpeg').default, alt: 'Окружные соревнования по волейболу - 3'},
-      {id: 10, src: require('../../assets/images/eventImages/pastEvents/1/pastEvent-1.4.jpeg').default, alt: 'Окружные соревнования по волейболу - 4'}
+      {id: 1, src: require('../../assets/images/eventImages/pastEvents/1/pastEvent-1.1.jpg').default, alt: 'Рождественская лыжная гонка - 1'},
+      {id: 2, src: require('../../assets/images/eventImages/pastEvents/1/pastEvent-1.2.jpg').default, alt: 'Рождественская лыжная гонка - 2'},
+      {id: 3, src: require('../../assets/images/eventImages/pastEvents/1/pastEvent-1.3.jpg').default, alt: 'Рождественская лыжная гонка - 3'},
+      {id: 4, src: require('../../assets/images/eventImages/pastEvents/1/pastEvent-1.4.jpg').default, alt: 'Рождественская лыжная гонка - 4'},
+      {id: 5, src: require('../../assets/images/eventImages/pastEvents/1/pastEvent-1.5.jpg').default, alt: 'Рождественская лыжная гонка - 5'}
     ]
   },
   {
     id: 2,
-    name: 'Отборочные окружные соревнования по настольному теннису ',
-    image: require('../../assets/images/newsImages/news-9.jpg').default,
-    location: 'г. Москва, посёлок Марьино',
-    date: '9 октября 2021 ( суббота )',
-    documentation: require('../../assets/docs/eventsDocs/upcomingEventsDocs/clubs-shedule 21.35.06.pdf').default,
+    name: 'Второй этап открытых соревнований по лыжным гонкам «Кубок Красной Пахры»',
+    image: require('../../assets/images/eventImages/pastEvents/2/pastEvent-2.jpg').default,
+    location: 'г. Москва, с.Красная Пахра, Лыжная трасса в д.Варварино',
+    date: '13 февраля 2022 ( воскресенье )',
+    documentation: '',
     isPast: true,
     gallery: [
-      {id: 1, src: require('../../assets/images/eventImages/pastEvents/2/pastEvent-2.1.jpeg').default, alt: 'Окружные соревнования по настольному теннису - 1'},
-      {id: 4, src: require('../../assets/images/eventImages/pastEvents/2/pastEvent-2.2..jpeg').default, alt: 'Окружные соревнования по настольному теннису - 2'},
-      {id: 5, src: require('../../assets/images/eventImages/pastEvents/2/pastEvent-2.3.jpeg').default, alt: 'Окружные соревнования по настольному теннису - 3'}
+      {id: 1, src: require('../../assets/images/eventImages/pastEvents/2/pastEvent-2.1.jpg').default, alt: 'Второй этап открытых соревнований по лыжным гонкам «Кубок Красной Пахры» - 1'},
+      {id: 2, src: require('../../assets/images/eventImages/pastEvents/2/pastEvent-2.2.jpg').default, alt: 'Второй этап открытых соревнований по лыжным гонкам «Кубок Красной Пахры» - 2'},
+      {id: 3, src: require('../../assets/images/eventImages/pastEvents/2/pastEvent-2.3.jpg').default, alt: 'Второй этап открытых соревнований по лыжным гонкам «Кубок Красной Пахры» - 3'},
+      {id: 4, src: require('../../assets/images/eventImages/pastEvents/2/pastEvent-2.4.jpg').default, alt: 'Второй этап открытых соревнований по лыжным гонкам «Кубок Красной Пахры» - 4'},
+      {id: 5, src: require('../../assets/images/eventImages/pastEvents/2/pastEvent-2.5.jpg').default, alt: 'Второй этап открытых соревнований по лыжным гонкам «Кубок Красной Пахры» - 5'}
     ]
-  },
+  }
 ]

@@ -10,7 +10,7 @@ function News() {
 
   const [currentPage, setCurrentPage] = useState(1)
   const [activeIndex, setActiveIndex] = useState(1)
-  const [limitNewsPerPage] = useState(12)
+  const [limitNewsPerPage] = useState(21)
   const indexOfLastNews = currentPage * limitNewsPerPage
   const indexOfFirstNews = indexOfLastNews - limitNewsPerPage
   const currentNewsList = list.slice(indexOfFirstNews, indexOfLastNews)
